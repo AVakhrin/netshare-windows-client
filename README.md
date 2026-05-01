@@ -16,10 +16,13 @@ Standard NetShare instructions require manual proxy entry or running a `.bat` fi
 - **Portable**: Single PowerShell script to set up any Windows machine.
 
 ## 🛠 Installation
-1. Download `NetShare_Auto.ps1`.
-2. Right-click the file and select **"Run with PowerShell"**.
-3. **IMPORTANT**: The script will ask for **Administrator privileges**. You must allow it to create system tasks and modify proxy settings.
-4. Done! The script creates tiny helper files in `%APPDATA%\NetShareAuto` and registers system tasks.
+1. Download `NetShareConfigurator.ps1`.
+2. **To run as Administrator (Simplest Method):**
+   - Press the `Win` key, type **PowerShell**.
+   - Right-click on **Windows PowerShell** and select **"Run as Administrator"**.
+   - Drag and drop the downloaded file into the PowerShell window and press **Enter**.
+3. Confirm any system prompts.
+4. Done! The script will create helper files in `%APPDATA%\NetShareAuto` and set up the triggers.
 
 ## 📄 License
 This project is licensed under the **Creative Commons Attribution-NoDerivs 4.0 International (CC BY-ND 4.0)**.
